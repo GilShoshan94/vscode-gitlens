@@ -7,12 +7,12 @@
 			"type": "pwa-extensionHost",
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
-			"args": ["--disable-extension=eamodio.gitlens-insiders", "--extensionDevelopmentPath=${workspaceFolder}"],
+			"args": ["--disable-extension=GilShoshan94.gitlensfoss-insiders", "--extensionDevelopmentPath=${workspaceFolder}"],
 			"cwd": "${workspaceFolder}",
 			"debugWebviews": true,
 			"rendererDebugOptions": {
 				"sourceMaps": true,
-				"urlFilter": "*eamodio.gitlens*",
+				"urlFilter": "*GilShoshan94.gitlensfoss*",
 				"webRoot": "${workspaceFolder}/src/webviews/apps"
 			},
 			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
@@ -35,7 +35,7 @@
 			"debugWebviews": true,
 			"rendererDebugOptions": {
 				"sourceMaps": true,
-				"urlFilter": "*eamodio.gitlens*",
+				"urlFilter": "*GilShoshan94.gitlensfoss*",
 				"webRoot": "${workspaceFolder}/src/webviews/apps"
 			},
 			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
@@ -53,12 +53,12 @@
 			"type": "pwa-extensionHost",
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
-			"args": ["--disable-extension=eamodio.gitlens-insiders", "--extensionDevelopmentPath=${workspaceFolder}"],
+			"args": ["--disable-extension=GilShoshan94.gitlensfoss-insiders", "--extensionDevelopmentPath=${workspaceFolder}"],
 			"cwd": "${workspaceFolder}",
 			"debugWebviews": true,
 			"rendererDebugOptions": {
 				"sourceMaps": true,
-				"urlFilter": "*eamodio.gitlens*",
+				"urlFilter": "*GilShoshan94.gitlensfoss*",
 				"webRoot": "${workspaceFolder}/src/webviews/apps"
 			},
 			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
@@ -82,7 +82,7 @@
 			"debugWebviews": true,
 			"rendererDebugOptions": {
 				"sourceMaps": true,
-				"urlFilter": "*eamodio.gitlens*",
+				"urlFilter": "*GilShoshan94.gitlensfoss*",
 				"webRoot": "${workspaceFolder}/src/webviews/apps"
 			},
 			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
