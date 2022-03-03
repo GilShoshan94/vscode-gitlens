@@ -4,18 +4,16 @@
 	"description": "Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more",
 	"version": "11.6.0",
 	"author": {
-		"name": "Eric Amodio",
-		"email": "eamodio@gmail.com"
+		"name": "Eric Amodio"
 	},
-	"publisher": "eamodio",
 	"license": "SEE LICENSE IN LICENSE",
 	"homepage": "https://gitlens.amod.io/",
 	"bugs": {
-		"url": "https://github.com/eamodio/vscode-gitlens/issues"
+		"url": "https://github.com/GilShoshan94/vscode-gitlens-foss/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/eamodio/vscode-gitlens.git"
+		"url": "https://github.com/GilShoshan94/vscode-gitlens-foss.git"
 	},
 	"engines": {
 		"vscode": "^1.57.0"
@@ -275,7 +273,7 @@
 				"gitlens.blame.format": {
 					"type": "string",
 					"default": "${message|50?} ${agoOrDate|14-}",
-					"markdownDescription": "Specifies the format of the gutter blame annotations. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs. Date formatting is controlled by the `#gitlens.blame.dateFormat#` setting",
+					"markdownDescription": "Specifies the format of the gutter blame annotations. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs. Date formatting is controlled by the `#gitlens.blame.dateFormat#` setting",
 					"scope": "window"
 				},
 				"gitlens.blame.heatmap.enabled": {
@@ -563,7 +561,7 @@
 				"gitlens.currentLine.format": {
 					"type": "string",
 					"default": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}",
-					"markdownDescription": "Specifies the format of the current line blame annotation. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs. Date formatting is controlled by the `#gitlens.currentLine.dateFormat#` setting",
+					"markdownDescription": "Specifies the format of the current line blame annotation. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs. Date formatting is controlled by the `#gitlens.currentLine.dateFormat#` setting",
 					"scope": "window"
 				},
 				"gitlens.currentLine.pullRequests.enabled": {
@@ -941,7 +939,7 @@
 				"gitlens.hovers.detailsMarkdownFormat": {
 					"type": "string",
 					"default": "${avatar} &nbsp;__${author}__, ${ago}${' via 'pullRequest} &nbsp; _(${date})_ \n\n${message}\n\n${commands}${\n\n---\n\nfootnotes}",
-					"markdownDescription": "Specifies the format (in markdown) of the _commit details_ hover. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the format (in markdown) of the _commit details_ hover. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.hovers.enabled": {
@@ -967,10 +965,6 @@
 					"default": true,
 					"markdownDescription": "Specifies whether to provide information about the Pull Request (if any) that introduced the commit in the hovers. Requires a connection to a supported remote service (e.g. GitHub)",
 					"scope": "window"
-				},
-				"gitlens.insiders": {
-					"deprecationMessage": "Deprecated. Use the Insiders edition of GitLens instead",
-					"markdownDeprecationMessage": "Deprecated. Use the [Insiders edition](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens-insiders) of GitLens instead"
 				},
 				"gitlens.integrations.enabled": {
 					"type": "boolean",
@@ -1711,7 +1705,7 @@
 				"gitlens.statusBar.format": {
 					"type": "string",
 					"default": "${author}, ${agoOrDate}${' via 'pullRequest}",
-					"markdownDescription": "Specifies the format of the blame information in the status bar. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs. Date formatting is controlled by the `#gitlens.statusBar.dateFormat#` setting",
+					"markdownDescription": "Specifies the format of the blame information in the status bar. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs. Date formatting is controlled by the `#gitlens.statusBar.dateFormat#` setting",
 					"scope": "window"
 				},
 				"gitlens.statusBar.pullRequests.enabled": {
@@ -1999,37 +1993,37 @@
 				"gitlens.views.formats.commits.label": {
 					"type": "string",
 					"default": "${❰ tips ❱➤  }${message}",
-					"markdownDescription": "Specifies the format of commits in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the format of commits in the views. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.views.formats.commits.description": {
 					"type": "string",
 					"default": "${author, }${agoOrDate}",
-					"markdownDescription": "Specifies the description format of commits in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the description format of commits in the views. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.views.formats.files.label": {
 					"type": "string",
 					"default": "${working  }${file}",
-					"markdownDescription": "Specifies the format of a file in the views. See [_File Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#file-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the format of a file in the views. See [_File Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#file-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.views.formats.files.description": {
 					"type": "string",
 					"default": "${directory}${  ←  originalPath}",
-					"markdownDescription": "Specifies the description format of a file in the views. See [_File Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#file-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the description format of a file in the views. See [_File Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#file-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.views.formats.stashes.label": {
 					"type": "string",
 					"default": "${message}",
-					"markdownDescription": "Specifies the format of stashes in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the format of stashes in the views. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.views.formats.stashes.description": {
 					"type": "string",
 					"default": "${agoOrDate}",
-					"markdownDescription": "Specifies the description format of stashes in the views. See [_Commit Tokens_](https://github.com/eamodio/vscode-gitlens/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
+					"markdownDescription": "Specifies the description format of stashes in the views. See [_Commit Tokens_](https://github.com/GilShoshan94/vscode-gitlens-foss/wiki/Custom-Formatting#commit-tokens) in the GitLens docs",
 					"scope": "window"
 				},
 				"gitlens.views.fileHistory.avatars": {
@@ -6830,12 +6824,12 @@
 			"extension/context": [
 				{
 					"command": "gitlens.showWelcomePage",
-					"when": "extension =~ /^eamodio.gitlens(-insiders)?$/ && extensionStatus == installed",
+					"when": "extension =~ /^GilShoshan94.gitlens(-insiders)?$/ && extensionStatus == installed",
 					"group": "9_gitlens@1"
 				},
 				{
 					"command": "gitlens.showSettingsPage",
-					"when": "extension =~ /^eamodio.gitlens(-insiders)?$/ && extensionStatus == installed",
+					"when": "extension =~ /^GilShoshan94.gitlens(-insiders)?$/ && extensionStatus == installed",
 					"group": "9_gitlens@2"
 				}
 			],
