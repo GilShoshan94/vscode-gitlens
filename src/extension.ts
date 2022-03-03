@@ -25,12 +25,12 @@ export async function activate(context: ExtensionContext): Promise<GitLensApi | 
 
 	_context = context;
 
-	let extensionId = 'eamodio.gitlens';
-	if (paths.basename(context.globalStorageUri.fsPath) === 'eamodio.gitlens-insiders') {
-		extensionId = 'eamodio.gitlens-insiders';
+	let extensionId = 'GilShoshan94.gitlens';
+	if (paths.basename(context.globalStorageUri.fsPath) === 'GilShoshan94.gitlens-insiders') {
+		extensionId = 'GilShoshan94.gitlens-insiders';
 
 		// Ensure that stable isn't also installed
-		const stable = extensions.getExtension('eamodio.gitlens');
+		const stable = extensions.getExtension('GilShoshan94.gitlens');
 		if (stable != null) {
 			Logger.log('GitLens (Insiders) was NOT activated because GitLens is also installed');
 
