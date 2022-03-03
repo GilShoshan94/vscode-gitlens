@@ -1,10 +1,5 @@
 [
   {
-    "kind": 2,
-    "language": "github-issues",
-    "value": "$issues=repo:eamodio/vscode-gitlens is:open\n$prs=repo:eamodio/vscode-gitlens is:open is:pr"
-  },
-  {
     "kind": 1,
     "language": "markdown",
     "value": "## Triage"
