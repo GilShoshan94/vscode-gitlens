@@ -4,8 +4,9 @@
 	"description": "Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more",
 	"version": "11.6.0",
 	"author": {
-		"name": "Eric Amodio"
+		"name": "Gil Shoshan"
 	},
+	"publisher": "GilShoshan94",
 	"license": "SEE LICENSE IN LICENSE",
 	"homepage": "https://gitlens.amod.io/",
 	"bugs": {
